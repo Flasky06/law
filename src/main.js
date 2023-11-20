@@ -13,14 +13,15 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import { faUser, faUserSecret } from "@fortawesome/free-solid-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
-library.add(faUserSecret, faUser);
+library.add(fas, fab);
 
 /* add font awesome icon component */
 
-const app = createApp(App).component("font-awesome-icon", FontAwesomeIcon);
+const app = createApp(App).component("fa", FontAwesomeIcon);
 
 app.use(createPinia());
 app.use(router);

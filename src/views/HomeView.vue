@@ -30,9 +30,10 @@
 								CONTACT OUR ATTORNEYS
 							</h4>
 
-							<span class="material-symbols-outlined text-white">
-								arrow_right_alt
-							</span>
+							<fa
+								:icon="['fas', 'arrow-right-long']"
+								class="text-white text-lg"
+							></fa>
 						</div>
 					</div>
 				</div>
