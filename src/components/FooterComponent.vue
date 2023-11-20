@@ -1,8 +1,10 @@
 <template>
-    <div class="w-full h-[1150px] lg:h-[440px] bg-green-950">
-      <div class="lg:px-80 lg:flex justify-between">
-        <div class="grid grid-col-1 gap-8 space-y-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-10">
-          <div class="py-4 space-y-4">
+  <div class="w-full  px-6 h-[1400px] md:h-[700px] lg:h-[440px] bg-green-950">
+    <div class="lg:px-80 lg:flex justify-between">
+      <div
+        class="grid grid-col-1 gap-8 space-y-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-10"
+      >
+        <div class="py-4 space-y-4">
           <h1>
             <span class="font-bold text-orange-500">|</span>&nbsp;
             <span class="text-xl text-white">A</span
@@ -35,31 +37,41 @@
             <span class="material-symbols-outlined text-sm">
               radio_button_unchecked
             </span>
-            <a href="/herosView" class="hover:animate-pulse">Auto & Car Accidents</a>
+            <a href="/herosView" class="hover:animate-pulse"
+              >Auto & Car Accidents</a
+            >
           </div>
           <div class="flex space-x-2 text-orange-400">
             <span class="material-symbols-outlined text-sm">
               radio_button_unchecked
             </span>
-            <a href="/herosView" class="hover:animate-pulse">Sexual Abuse and Assault</a>
+            <a href="/herosView" class="hover:animate-pulse"
+              >Sexual Abuse and Assault</a
+            >
           </div>
           <div class="flex space-x-2 text-orange-400">
             <span class="material-symbols-outlined text-sm">
               radio_button_unchecked
             </span>
-            <a href="/herosView" class="hover:animate-pulse">Business Litgation</a>
+            <a href="/herosView" class="hover:animate-pulse"
+              >Business Litgation</a
+            >
           </div>
           <div class="flex space-x-2 text-orange-400">
             <span class="material-symbols-outlined text-sm">
               radio_button_unchecked
             </span>
-            <a href="/herosView" class="hover:animate-pulse">Defective Medical Device</a>
+            <a href="/herosView" class="hover:animate-pulse"
+              >Defective Medical Device</a
+            >
           </div>
           <div class="flex space-x-2 text-orange-400">
             <span class="material-symbols-outlined text-sm">
               radio_button_unchecked
             </span>
-            <a href="/herosView" class="hover:animate-pulse">Toyota Accelerator Recall</a>
+            <a href="/herosView" class="hover:animate-pulse"
+              >Toyota Accelerator Recall</a
+            >
           </div>
           <div class="flex space-x-2 text-orange-400">
             <span class="material-symbols-outlined text-sm">
@@ -67,12 +79,14 @@
             </span>
             <a href="/herosView" class="hover:animate-pulse">Corporate Fund</a>
           </div>
-      
+
           <div class="flex space-x-2 text-orange-400">
             <span class="material-symbols-outlined text-sm">
               radio_button_unchecked
             </span>
-            <a href="/herosView" class="hover:animate-pulse">Auto Product Liability</a>
+            <a href="/herosView" class="hover:animate-pulse"
+              >Auto Product Liability</a
+            >
           </div>
           <div class="flex space-x-2 text-orange-400">
             <span class="material-symbols-outlined text-sm">
@@ -166,10 +180,9 @@
           </div>
         </div>
       </div>
-      
-      </div>
-      <div class="w-full lg:h-20 bg-black">
-      <div class="flex text-white text-sm px-4 py-6">
+    </div>
+    <div class=" w-full lg:w-full h-16 lg:h-20 bg-black">
+      <div class="flex text-white text-sm px-4 py-2 lg:px-4 lg:py-6">
         <span class="material-symbols-outlined"> copyright </span>
         <p>COPYRIGHT 2023 -CHANGE THE WORLD WITH</p>
         &nbsp;
@@ -177,9 +190,6 @@
           <p class="text-orange-400">LAW</p>
         </span>
       </div>
-      
     </div>
-    </div>
-  
-  </template>
-  
+  </div>
+</template>
