@@ -6,8 +6,8 @@ module.exports = {
 			colors: {
 				primary: "#166432",
 				secondary: "#092415",
-				btn_color: "#B17030",
-				text_color: "#815223",
+				text_color: "#B17030",
+				btn_color: "#815223",
 			},
 		},
 	},
