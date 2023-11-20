@@ -17,7 +17,7 @@
 				<li><router-link to="/" class="text-white">HOME</router-link></li>
 				<li>
 					<router-link
-						to="/practice"
+						to="/practice-area"
 						@click="toggleMobileSidebar"
 						class="text-white"
 						>PRACTICE AREA</router-link
@@ -34,7 +34,7 @@
 				</li>
 				<li>
 					<router-link
-						to="/contact"
+						to="/contact-us"
 						@click="toggleMobileSidebar"
 						class="text-white"
 						>CONTACT US</router-link
@@ -74,23 +74,18 @@
 								>
 							</li>
 							<li>
-								<router-link to="/about" @click="toggleMobileSidebar">
+								<router-link to="/practice-area" @click="toggleMobileSidebar">
 									About</router-link
 								>
 							</li>
 							<li>
-								<router-link to="/services" @click="toggleMobileSidebar">
+								<router-link to="/attorneys" @click="toggleMobileSidebar">
 									Services</router-link
 								>
 							</li>
 							<li>
-								<router-link to="/portfolio" @click="toggleMobileSidebar">
+								<router-link to="/contact-us" @click="toggleMobileSidebar">
 									Portfolio</router-link
-								>
-							</li>
-							<li>
-								<router-link to="/testimonials" @click="toggleMobileSidebar">
-									Testimonials</router-link
 								>
 							</li>
 						</ul>
