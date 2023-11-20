@@ -1,7 +1,7 @@
 <template>
 	<div class="bg-slate-950 top-0 sticky z-40">
 		<div
-			class="hidden lg:flex lg:flex-row lg:justify-center lg:py-3 lg:space-x-24 bg-[#1E1E1E] text-white border-b border-b-orange-500"
+			class="hidden lg:flex lg:flex-row lg:justify-center lg:py-3 lg:space-x-24 bg-[#1E1E1E] text-white border-b-orange-500"
 		>
 			<div><span>Call Us</span><span>+254 712 345 678</span></div>
 
@@ -9,7 +9,7 @@
 		</div>
 		<!-- Desktop Navbar -->
 		<div
-			class="px-12 sm:px-6 hidden lg:flex justify-between lg:items-center py-8 border-b-8 border-white bg-slate-950"
+			class="px-12 sm:px-6 hidden lg:flex justify-between lg:items-center lg:py-8 bg-slate-950"
 		>
 			<router-link class="text-white text-2xl" to="/"> LAWYER </router-link>
 
