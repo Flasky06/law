@@ -3,7 +3,7 @@
 		<div
 			class="relative overflow-hidden w-full z-0 bg-contain"
 			style="
-				background-image: url(https://media.istockphoto.com/id/1097811822/photo/bookshelf-of-irish-legal-books.webp?s=1024x1024&w=is&k=20&c=PN-01VGZE5vGzZtIH9f1kEPxatR-Dt5_ayl3DEMA4gU=);
+				background-image: url(https://cdn.pixabay.com/photo/2017/06/09/22/56/lady-justice-2388500_640.jpg);
 				background-size: cover;
 				background-attachment: fixed;
 				background-position: center;
@@ -12,10 +12,10 @@
 			<div class="h-screen flex items-center justify-end w-full">
 				<div class="lg:pl-16">
 					<div
-						class="bg-secondary opacity-60 z-10 flex flex-col lg:items-start lg:justify-center lg:max-w-3xl lg:mr-16 lg:space-y-8 lg:py-8 lg:px-4"
+						class="bg-secondary opacity-80 z-10 flex flex-col lg:items-start lg:justify-center lg:max-w-3xl lg:mr-16 lg:space-y-8 lg:py-8 lg:px-4"
 					>
-						<h1 class="text-white pl-4 text-3xl lg:text-3xl">
-							Attorneys At Law
+						<h1 class="text-text_color pl-4 text-3xl lg:text-3xl">
+							Attorney's At Law
 						</h1>
 						<p class="mt-4 text-lg pl-4 lg:text-xl text-white lg:mt-8">
 							Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque
@@ -29,7 +29,9 @@
 							>
 								CONTACT OUR ATTORNEYS
 							</h4>
-							<span class="material-symbols-outlined"> arrow_right_alt </span>
+							<span class="material-symbols-outlined text-white">
+								arrow_right_alt
+							</span>
 						</div>
 					</div>
 				</div>
@@ -37,7 +39,7 @@
 		</div>
 	</section>
 	<section class="py-20 bg-primary">
-		<div class="max-w-6xl mx-auto space-y-8">
+		<div class="max-w-7xl mx-auto space-y-8">
 			<h1 class="text-3xl text-white border-l-2 border-text_color pl-8 py-8">
 				PRACTICE AREAS
 			</h1>
@@ -132,7 +134,7 @@
 	</section>
 	<section class="bg-secondary py-20">
 		<div
-			class="max-w-6xl mx-auto flex flex-row justify-center items-center space-x-24"
+			class="max-w-7xl mx-auto flex flex-row justify-center items-center space-x-24"
 		>
 			<div
 				class="flex flex-col border-r-2 border-text pr-8 py-6 items-center space-y-4"
@@ -448,7 +450,13 @@
 					cols="30"
 					rows="10"
 					placeholder="Your Message"
-				></textarea>
+				></textarea
+				><button
+					type="'submit'"
+					class="flex bg-btn_color text-xl text-white max-w-sm py-3 justify-center pointer"
+				>
+					SUBMIT MESSAGE
+				</button>
 			</form>
 		</div>
 	</section>
