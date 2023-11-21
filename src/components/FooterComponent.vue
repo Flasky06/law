@@ -125,11 +125,8 @@
             <p class="text-white">+111 22-33-444</p>
           </div>
           <div class="flex space-x-2">
-            <span
-              class="material-symbols-outlined text-[#B17030] border border-[#166432] px-2 py-2"
-            >
-              mail
-            </span>
+            
+
             <p class="text-white">contact@yourlawwpsite.com</p>
           </div>
         </div>
@@ -159,26 +156,23 @@
             ><span class="text-white text-sm">S</span>
           </h1>
           <div class="py-6 flex space-x-6">
-            <div>
-              <span
-                class="material-symbols-outlined border border-orange-400 px-2 py-2"
-              >
-                location_on
-              </span>
+            <div class="px-2 py-2 border border-orange-400">
+              <fa
+                :icon="['fab', 'facebook']"
+                class="text-white text-xl cursor-pointer"
+              ></fa>
             </div>
-            <div>
-              <span
-                class="material-symbols-outlined border border-orange-400 px-2 py-2"
-              >
-                location_on
-              </span>
+            <div class="px-2 py-2 border border-orange-400">
+              <fa
+                :icon="['fab', 'instagram']"
+                class="text-white text-xl cursor-pointer"
+              ></fa>
             </div>
-            <div>
-              <span
-                class="material-symbols-outlined border border-orange-400 px-2 py-2"
-              >
-                location_on
-              </span>
+            <div class="px-2 py-2 border border-orange-400">
+              <fa
+                :icon="['fab', 'twitter']"
+                class="text-white text-xl cursor-pointer"
+              ></fa>
             </div>
           </div>
         </div>
