@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="mt-16 bg-[#092415] w-full h-24 lg:flex justify-between border-b border-b-white"
+      class=" bg-[#092415] w-full h-24 lg:flex justify-between border-b border-b-white"
     >
       <div class="">
         <h1 class="lg:px-80 text-white lg:py-10 lg:text-center">
