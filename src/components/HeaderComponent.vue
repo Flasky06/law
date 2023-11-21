@@ -1,53 +1,42 @@
 <template>
-  <div class="bg-primary top-0 sticky z-40">
-    <!-- <div
-      class="hidden lg:flex lg:flex-row lg:justify-center lg:py-3 lg:space-x-24 bg-[#1E1E1E] text-white border-b-orange-500"
-    >
-      <div><span>Call Us</span><span>+254 712 345 678</span></div>
 
-      <div><span>tw</span><span>ig</span><span>fb</span></div>
-    </div> -->
-    <div
-      class="sub-header py-2 text-sm flex flex-col lg:flex-row lg:justify-around items-center bg-black"
-    >
-      <!-- Phone number section -->
-      <div class="phone mb-2 lg:mb-0">
-        <p class="text-center">
-          Call us: <span class="text-yellow-600">(+254)719653260</span>
-        </p>
-      </div>
-      <!-- Mail section -->
-      <div class="mail flex items-center lg:ml-4">
-        <p class="text-yellow-600 ml-1 lg:ml-2">info@companyname.com</p>
-      </div>
-      <!-- Social media icons section -->
-      <section class="flex social-icons mt-2 lg:mt-0">
-        <img
-          class="w-10 mr-4"
-          src="https://i.pinimg.com/564x/2f/b9/09/2fb909b74a854f0715e64dda5825990d.jpg"
-          alt="Social Media Icon"
-        />
-        <img
-          class="w-10 mr-4"
-          src="https://i.pinimg.com/564x/2f/b9/09/2fb909b74a854f0715e64dda5825990d.jpg"
-          alt="Social Media Icon"
-        />
-        <img
-          class="w-10"
-          src="https://i.pinimg.com/564x/2f/b9/09/2fb909b74a854f0715e64dda5825990d.jpg"
-          alt="Social Media Icon"
-        />
-      </section>
-    </div>
-    <div class="border-t border-yellow-600"></div>
-    <!-- End of sub header -->
-    <!-- Desktop Navbar -->
-    <div
-      class="px-12 sm:px-6 hidden lg:flex justify-between lg:items-center lg:py-8 bg-secondary"
-    >
-      <router-link class="text-white text-4xl" to="/">
-        LAW<span class="text-text_color">YER</span>
-      </router-link>
+	<div class="bg-primary top-0 sticky z-40">
+		<!-- header 1 -->
+		<div
+			class="hidden lg:flex lg:flex-row lg:justify-center lg:py-3 lg:space-x-24 bg-[#1E1E1E] text-white"
+		>
+			<div class="flex space-x-2 items-center">
+				<fa :icon="['fas', 'phone']" class="text-white text-lg"></fa>
+				<span class="text-lg">+254 712 345 678</span>
+			</div>
+			<div class="space-x-4">
+				<fa
+					:icon="['fab', 'facebook']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
+				<fa
+					:icon="['fab', 'instagram']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
+				<fa
+					:icon="['fab', 'twitter']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
+				<fa
+					:icon="['fab', 'faGithub']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
+			</div>
+
+			<div class="text-white">
+				<font-awesome-icon icon="fa-brands faTwitter" class="text-white" />
+			</div>
+		</div>
+		<!-- Desktop Navbar -->
+		<div
+			class="px-12 sm:px-6 hidden lg:flex justify-between lg:items-center lg:py-8 bg-secondary"
+		>
+			<router-link class="text-white text-2xl" to="/"> LAWYER </router-link>
 
       <ul class="space-x-16 lg:flex mr-20">
         <li>
