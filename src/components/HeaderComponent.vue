@@ -1,16 +1,30 @@
 <template>
 	<div class="bg-primary top-0 sticky z-40">
+		<!-- header 1 -->
 		<div
-			class="hidden lg:flex lg:flex-row lg:justify-center lg:py-3 lg:space-x-24 bg-[#1E1E1E] text-white border-b-orange-500"
+			class="hidden lg:flex lg:flex-row lg:justify-center lg:py-3 lg:space-x-24 bg-[#1E1E1E] text-white"
 		>
 			<div class="flex space-x-2 items-center">
 				<fa :icon="['fas', 'phone']" class="text-white text-lg"></fa>
-				<span>+254 712 345 678</span>
+				<span class="text-lg">+254 712 345 678</span>
 			</div>
 			<div class="space-x-4">
-				<fa :icon="['fab', 'facebook']" class="text-white text-xl"></fa>
-				<fa :icon="['fab', 'instagram']" class="text-white text-xl"></fa>
-				<fa :icon="['fab', 'x-twitter']" class="text-white text-xl"></fa>
+				<fa
+					:icon="['fab', 'facebook']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
+				<fa
+					:icon="['fab', 'instagram']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
+				<fa
+					:icon="['fab', 'twitter']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
+				<fa
+					:icon="['fab', 'faGithub']"
+					class="text-white text-xl cursor-pointer"
+				></fa>
 			</div>
 
 			<div class="text-white">
