@@ -125,11 +125,7 @@
             <p class="text-white">+111 22-33-444</p>
           </div>
           <div class="flex space-x-2">
-            <span
-              class="material-symbols-outlined text-[#B17030] border border-[#166432] px-2 py-2"
-            >
-              mail
-            </span>
+            
 
             <p class="text-white">contact@yourlawwpsite.com</p>
           </div>

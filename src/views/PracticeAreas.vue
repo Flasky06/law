@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="mt-16 bg-[#092415] w-full h-24 lg:flex justify-between border-b border-b-white"
+
     >
       <div class="">
         <h1 class="lg:px-80 text-white lg:py-10 lg:text-center">
@@ -16,7 +16,7 @@
         <a href="/" class="text-white">Practice Areas</a>
       </div>
     </div>
-    <div class="bg-[#166432] w-full lg:h-[1200px] md:px-2">
+
       <div
         class="grid grid-col-1 space-y-4 py-6 md:grid-cols-2 md:py-2 md:gap-2 md:mx-1 md:space-y-0 lg:grid-cols-3 lg:gap- lg:py-20 lg:max-w-7xl lg:mx-auto lg:gap-4 lg:space-y-0"
       >
@@ -47,6 +47,7 @@
             src="https://cdn.pixabay.com/photo/2012/03/04/00/43/architecture-22039_640.jpg"
             alt="Corporate"
           />
+
           <div class="space-x-2 py-4">
             <h1 class="text-center text-bold">
               <span class="text-2xl">C</span><span>ORPORATE</span> &nbsp;
