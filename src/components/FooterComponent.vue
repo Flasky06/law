@@ -19,7 +19,11 @@
             organizations seeking legal assistance.
           </p>
           &nbsp;
-          <p class="text-white text-start">Fight for justice and peace.</p>
+          <p
+            class="text-[#B17030] text-start border border-[#166432] w-9/12 text-sm px-2 font-bold"
+          >
+            Fight for justice and peace.
+          </p>
         </div>
         <div class="space-y-4">
           <h1>
