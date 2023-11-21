@@ -13,24 +13,32 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
-import { faArrowRightLong, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
-	faFacebook,
-	faGithub,
-	faInstagram,
-	faTwitter,
-	faYoutube,
+  faArrowRightLong,
+  faLocationDot,
+  faPhone,
+  faMessage,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faGithub,
+  faInstagram,
+  faTwitter,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
 library.add(
-	faYoutube,
-	faGithub,
-	faTwitter,
-	faFacebook,
-	faInstagram,
-	faPhone,
-	faArrowRightLong
+  faYoutube,
+  faGithub,
+  faTwitter,
+  faFacebook,
+  faInstagram,
+  faPhone,
+  faArrowRightLong,
+  faLocationDot,
+  faPhone,
+  faMessage
 );
 
 /* add font awesome icon component */
