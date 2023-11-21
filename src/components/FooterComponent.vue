@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-6 h-[1400px] md:h-[750px] lg:h-[440px] bg-green-950">
+  <div class="w-full px-6 h-[1300px] md:h-[750px] lg:h-[440px] bg-green-950">
     <div class="lg:px-80 lg:flex justify-between">
       <div
         class="grid grid-col-1 gap-8 space-y-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-10"
