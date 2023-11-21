@@ -28,7 +28,7 @@
               <p>Kenya, Nakuru</p>
             </div>
 
-            <!-- Phone -->
+            <!-- Phone ..-->
             <div class="flex-grow text-center bg-secondary p-4 md:p-14">
               <fa :icon="['fas', 'phone']" class="text-white text text-4xl" />
               <p class="font-bold">Phone</p>
